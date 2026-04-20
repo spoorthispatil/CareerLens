@@ -1,0 +1,49 @@
+# ── Core ML & NLP ──────────────────────────────────────────────
+# Compatible with Python 3.9 - 3.14 on Windows/macOS/Linux
+scikit-learn>=1.5.0
+numpy>=2.0.0
+pandas>=2.2.0
+scipy>=1.13.0
+python-dotenv>=1.0.0
+# ── Transformers & Embeddings (optional — enhances semantic scoring) ──
+# Install manually if needed:
+#   pip install sentence-transformers
+#   pip install torch  (CPU-only: pip install torch --index-url https://download.pytorch.org/whl/cpu)
+# transformers>=4.40.0
+# sentence-transformers>=2.7.0
+# torch>=2.3.0
+
+# ── FAISS (optional — used for keyword semantic search) ───────
+# Install manually if needed:
+#   pip install faiss-cpu
+# faiss-cpu>=1.8.0
+
+# ── PDF & DOCX Parsing ────────────────────────────────────────
+PyMuPDF>=1.24.0
+python-docx>=1.1.0
+pdfplumber>=0.11.0
+
+# ── Text Processing ────────────────────────────────────────────
+nltk>=3.8.1
+regex>=2024.4.16
+
+# ── API Layer ─────────────────────────────────────────────────
+fastapi>=0.111.0
+uvicorn>=0.29.0
+python-multipart>=0.0.9
+pydantic>=2.7.0
+
+# ── Visualization ─────────────────────────────────────────────
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.22.0
+
+# ── Utilities ─────────────────────────────────────────────────
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+joblib>=1.4.0
+requests>=2.31.0
+
+# ── Notebook ──────────────────────────────────────────────────
+jupyter>=1.0.0
+ipykernel>=6.29.0

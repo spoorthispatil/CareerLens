@@ -1,0 +1,13 @@
+# Trained model files (retrained on startup)
+models/*.pkl
+models/*.joblib
+
+# Reports
+reports/*.png
+reports/*.json
+
+# Python
+__pycache__/
+*.pyc
+.env
+*.csv

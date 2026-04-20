@@ -1,6 +1,6 @@
 ---
 title: CareerLens
-emoji: mag
+emoji: ??
 colorFrom: red
 colorTo: blue
 sdk: docker

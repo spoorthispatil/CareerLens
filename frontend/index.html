@@ -410,7 +410,9 @@ footer strong{color:var(--text2);}
 </footer>
 
 <script>
-const API='http://127.0.0.1:8000';
+const API = window.location.hostname === '127.0.0.1' || window.location.hostname === 'localhost'
+  ? 'http://127.0.0.1:8000'
+  : window.location.origin;
 const COMPANIES=['Google','Amazon','Microsoft','Meta','TCS','Infosys','Wipro','Flipkart','Swiggy','Accenture','Deloitte'];
 let currentData=null,selectedCompany='',inputMode='text',uploadedText='';
 let radarInst=null,histInst=null;
